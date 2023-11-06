@@ -1,9 +1,9 @@
 # 146表格转Word表格
 
 本工具用于将146函数框架产出的表格转换成论文中所需的表格形式，以减少重复的复制粘贴操作。通过使用该工具，用户可以快速将原始表格转换为Word表格，以便于在论文中使用。
+
+
 ![image](https://github.com/huhanyu/146-excel-word-/assets/22694173/e021fa8e-ee3b-45c3-99cd-5d75d4442b38) → ![image](https://github.com/huhanyu/146-excel-word-/assets/22694173/2c51a9dd-fc12-43a4-a6c4-9cb18f7469e7)
-
-
 
 ## 如何使用
 
