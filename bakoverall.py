@@ -1,11 +1,8 @@
-import pandas as pd
-import  math
 import docx
-from docx.shared import Pt
+import pandas as pd
 from docx.enum.table import WD_ROW_HEIGHT, WD_ALIGN_VERTICAL
-from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+from docx.shared import Pt
 from utils import set_cell_margins, set_cell_border
-
 ####需要改的地方####
 filename='article_table.docx'
 # 读取Excel文件

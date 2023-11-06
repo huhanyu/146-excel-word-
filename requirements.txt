@@ -1,0 +1,3 @@
+docx==0.2.4
+pandas==2.1.2
+python_docx==1.0.1

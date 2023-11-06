@@ -1,11 +1,11 @@
-import pandas as pd
-import  math
+import math
 import docx
-from docx.shared import Pt
+import pandas as pd
 from docx.enum.table import WD_ROW_HEIGHT, WD_ALIGN_VERTICAL
-from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from utils import set_cell_margins, set_cell_border
+from docx.shared import Pt
 from bakoverall import get_overall_table
+from utils import set_cell_margins, set_cell_border
+
 ####需要改的地方####
 excel_path = 'CCWFO-10-30_09_23.xlsx'
 save_filename='article_table2.docx'
