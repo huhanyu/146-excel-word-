@@ -7,10 +7,10 @@ from utils import set_cell_margins, set_cell_border
 filename='article_table.docx'
 # 读取Excel文件
 # data = pd.read_excel("CCWFO-10-30_09_23.xlsx", sheet_name='overall')
-data = pd.read_excel("CCWFO-10-23_21_13.xlsx", sheet_name='overall')
-data2 = pd.read_excel("CCWFO-10-23_21_13.xlsx", sheet_name='result & pValue')
-excel_path = 'CCWFO-10-23_21_13.xlsx'
-print(data2)
+# data = pd.read_excel("CCWFO-10-23_21_13.xlsx", sheet_name='overall')
+# data2 = pd.read_excel("CCWFO-10-23_21_13.xlsx", sheet_name='result & pValue')
+# excel_path = 'CCWFO-10-23_21_13.xlsx'
+# print(data2)
 ##################
 
 def get_overall_table(excel_path,doc):
