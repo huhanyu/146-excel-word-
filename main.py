@@ -5,10 +5,10 @@ from docx.enum.table import WD_ROW_HEIGHT, WD_ALIGN_VERTICAL
 from docx.shared import Pt
 from bakoverall import get_overall_table
 from utils import set_cell_margins, set_cell_border
-
+import openpyxl
 ####需要改的地方####
-excel_path = 'CCWFO-10-30_09_23.xlsx'
-save_filename='article_table2.docx'
+excel_path = 'CCWFO-03-21_12_14.xlsx'
+save_filename='article_table1.docx'
 # 读取Excel文件
 # data = pd.read_excel("CCWFO-10-30_09_23.xlsx", sheet_name='overall')
 data = pd.read_excel(excel_path, sheet_name='overall')
